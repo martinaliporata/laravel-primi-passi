@@ -2,7 +2,7 @@
 use Illuminate\Support\Facades\Route;
 
 // quando l'utente chiama home...
-Route::get('/home', function() {
+Route::get('/', function() {
     return view('home');
 });
 
